@@ -57,7 +57,7 @@ function displayGuess(guess) {
   userInput.value = '';
   guessSlot.innerHTML += `${guess} `;
   numGuess++;
-  remaining.innerHTML = `${10 - numGuess}`;  // Fixed: Display remaining guesses correctly
+  remaining.innerHTML = `${11 - numGuess}`;  // Fixed: Display remaining guesses correctly
 }
 
 function displayMessage(message) {
